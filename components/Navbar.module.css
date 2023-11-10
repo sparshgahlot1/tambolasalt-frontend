@@ -1,0 +1,41 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+  background-color: #AA96DA;
+  gap: 20px;
+  padding: 20px 20px;
+  z-index: 100; /* Ensure it appears above other content */
+}
+
+
+.right{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.userIcon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: white; */
+  color: #FFFFD2;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: solid 2px #FFFFD2;
+  font-size: 25px;
+}
+
+.left{
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  gap: 10px;
+  color: #FFFFD2;
+}

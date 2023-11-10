@@ -1,0 +1,30 @@
+.contestCard{
+    overflow: hidden;
+    height: 120px;
+    margin: 20px 20px;
+    background-color: #ffffff6b;
+    border-radius: 16px;
+}
+
+.contestName{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    background-color: #FCBAD3;
+    padding-left: 10px;
+    padding-top: 5px;
+    text-align: left;
+}
+
+.contestName p{
+    padding-right: 10px;
+}
+
+.contestBody{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFD2;
+    padding-top: 10px;
+    padding: 10px;
+    height: 90px
+}
